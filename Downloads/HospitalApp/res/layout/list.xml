@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/listV"
+        android:layout_width="match_parent"
+        android:layout_height="417dp" >
+    </ListView>
+
+    <Button
+        android:id="@+id/signout"
+        android:layout_width="90dp"
+        android:layout_height="15dp"
+        android:layout_weight="0.72"
+         android:background="@drawable/buttonred"
+        android:text="Sign out" />
+
+</LinearLayout>

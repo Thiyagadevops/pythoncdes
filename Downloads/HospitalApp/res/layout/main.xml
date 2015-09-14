@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:fillViewport="true">
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF">s
+    
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip" >
+        
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="149dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/cardioalter" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+         android:id="@+id/footer"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:paddingBottom="5dip"
+         android:paddingTop="5dip">
+        
+    </LinearLayout>
+
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/header"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+
+    <EditText
+        android:id="@+id/etUser"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_x="130dp"
+        android:layout_y="51dp"
+        android:hint="Enter UserName"
+        android:textSize="18sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_x="26dp"
+        android:layout_y="54dp"
+        android:text="Username:"
+        android:textSize="20dp"
+        android:textColor="#8D0000" />
+
+    <Button
+        android:id="@+id/signedin"
+        android:layout_width="96dp"
+        android:layout_height="65dp"
+        android:layout_x="18dp"
+        android:layout_y="192dp"
+        android:background="@drawable/buttonred"
+        android:gravity="center"
+        android:text="Sign in"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="95dp"
+        android:layout_height="65dp"
+        android:layout_x="194dp"
+        android:layout_y="192dp"
+        android:background="@drawable/buttonred"
+        android:gravity="center"
+        android:text="Sign Up"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/msglbl"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_weight="0.23"
+        android:layout_x="1dp"
+        android:layout_y="164dp"
+        android:textColor="#ff1493"
+        android:textSize="25px" />
+
+
+
+    <EditText
+        android:id="@+id/etPwd"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_x="130dp"
+        android:layout_y="111dp"
+        android:hint="Enter Password"
+        android:password="true"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="114dp"
+        android:text="Password:"
+        android:textColor="#8D0000"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:layout_width="321dp"
+        android:layout_height="110dp"
+        android:layout_x="-54dp"
+        android:layout_y="284dp"
+        android:src="@drawable/repeat_bg" />
+
+</AbsoluteLayout>
+
+</RelativeLayout>
+</ScrollView>

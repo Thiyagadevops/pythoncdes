@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:background="#FFFFFF">
+	   <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+                <EditText
+                        android:id="@+id/searchText"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"/>
+        
+                <Button
+                        android:id="@+id/searchButton"
+                        android:text="Search"
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/buttonred"/>
+
+        </LinearLayout>
+
+	  <ListView
+	      android:id="@+id/listview"
+	      android:layout_width="fill_parent"
+	      android:layout_height="350dp"
+	      android:drawSelectorOnTop="false" />
+
+	  <ImageButton 
+	      android:id="@+id/addPatient"
+	      android:layout_width="fill_parent"
+	      android:layout_height="wrap_content"
+	      android:background="#A00000"
+	      android:src="@drawable/plus"/>
+
+	  <ImageView
+	      android:id="@+id/back"
+	      android:layout_width="84dp"
+	      android:layout_height="wrap_content"
+	      android:src="@drawable/back" />
+		
+	</LinearLayout>

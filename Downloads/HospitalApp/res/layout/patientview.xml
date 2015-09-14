@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dip" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="149dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/cardioalter" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/footer"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_x="36dp"
+            android:layout_y="50dp" >
+        </LinearLayout>
+
+        <AbsoluteLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header"
+            android:orientation="vertical"
+            android:padding="0dip" >
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="89dp"
+                android:layout_height="wrap_content"
+                android:layout_x="3dp"
+                android:layout_y="360dp"
+                android:text="Chief Doctor:"
+                android:textColor="#8d0000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/etchiefdoc"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_x="125dp"
+                android:layout_y="360dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/etwardno"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_x="125dp"
+                android:layout_y="310dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/etphone"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_x="125dp"
+                android:layout_y="260dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="98dp"
+                android:layout_height="34dp"
+                android:layout_x="3dp"
+                android:layout_y="310dp"
+                android:text="Ward No:"
+                android:textColor="#8d0000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="113dp"
+                android:layout_height="40dp"
+                android:layout_x="3dp"
+                android:layout_y="260dp"
+                android:text="Contact No:"
+                android:textColor="#8d0000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/etmedicine"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_x="125dp"
+                android:layout_y="210dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="98dp"
+                android:layout_height="wrap_content"
+                android:layout_x="3dp"
+                android:layout_y="210dp"
+                android:text="Medicine:"
+                android:textColor="#8d0000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/etdiseasename"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_x="125dp"
+                android:layout_y="160dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="3dp"
+                android:layout_y="160dp"
+                android:text="Disease Name:"
+                android:textColor="#8d0000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/etbloodgrp"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_x="125dp"
+                android:layout_y="110dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/etsexspin"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_x="125dp"
+                android:layout_y="60dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="-2dp"
+                android:layout_y="110dp"
+                android:text=" Blood Group:"
+                android:textColor="#8d0000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="104dp"
+                android:layout_height="wrap_content"
+                android:layout_x="3dp"
+                android:layout_y="60dp"
+                android:text="Gender:"
+                android:textColor="#8d0000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="3dp"
+                android:layout_y="10dp"
+                android:text="Patient Name:"
+                android:textColor="#8d0000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/etpatient"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_x="125dp"
+                android:layout_y="10dp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="5dp"
+                android:layout_y="430dp"
+                 android:textColor="#8d0000"
+                android:textSize="17dp"
+                android:text="Doctor:" />
+
+            <TextView
+                android:id="@+id/etdoc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="125dp"
+                android:layout_y="433dp"
+                 />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="4dp"
+                android:layout_y="482dp"
+                android:text="Nurse:"
+                android:textColor="#8d0000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/etnur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="125dp"
+                android:layout_y="487dp"
+                 />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="91dp"
+                android:layout_marginLeft="0dip"
+                android:layout_weight="0.57"
+                android:layout_x="88dp"
+                android:layout_y="551dp"
+                android:src="@drawable/repeat_bg" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="5dp"
+                android:layout_y="533dp"
+                android:text="Lab Tech:"
+                android:textColor="#8d0000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/etlab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="125dp"
+                android:layout_y="533dp"
+                />
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="80dp"
+                android:layout_height="39dp"
+                android:layout_x="15dp"
+                android:layout_y="575dp"
+                android:src="@drawable/back" />
+
+        </AbsoluteLayout>
+    </RelativeLayout>
+
+</ScrollView>

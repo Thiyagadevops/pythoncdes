@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hospital"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="10" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".ProjectActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+          <activity android:name=".EmployeeList"></activity>
+        <activity android:name=".docdetail"></activity>
+         <activity android:name=".labtechnician"></activity>
+          <activity android:name=".chiefdetail"></activity>
+        <activity android:name=".Registration"></activity>
+        <activity android:name=".editPatient"></activity>
+        <activity android:name=".patientdetails"></activity>
+        <activity android:name=".patientView"></activity>
+        <activity android:name=".phydetail"></activity>
+        <activity android:name=".phynursedetail"></activity>
+         <activity android:name=".nursedetail"></activity>
+        <activity android:name=".nurseedit"></activity>
+        <activity android:name=".nurseView"></activity>
+        <activity android:name=".nursepatientdetails"></activity>
+        <activity android:name=".labpatientdetails"></activity>
+        <activity android:name=".labedit"></activity>
+        <activity android:name=".labView"></activity>
+        <activity android:name=".phylabdetail"></activity>
+          <activity android:name=".phychiefdetail"></activity>
+            <activity android:name=".chiefedit"></activity>
+              <activity android:name=".chiefView"></activity>
+                <activity android:name=".chiefpatientdetails"></activity>
+        
+    </application>
+
+</manifest>
